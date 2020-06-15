@@ -1,0 +1,9 @@
+name:"Cantarium big wall"
+description:"..."
+type:Wall
+health:7400
+size:3
+requirements:[
+cantarium/62
+]
+category:defense

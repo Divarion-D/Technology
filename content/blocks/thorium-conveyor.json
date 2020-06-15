@@ -1,0 +1,12 @@
+ "type": "Conveyor",
+ "name": "Thorium Conveyor",
+ "description": "Fast thorium conveyor.",
+ "requirements": [
+		{ "item": "thorium", "amount": 2 },
+  {"item": "titanium", "amount": 1 },
+  {"item": "lead", "amount": 1 }
+],
+ "category": "distribution",
+ "speed": 0.20,
+ "displayedSpeed": 20
+ "research": titanium-conveyor

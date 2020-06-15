@@ -1,0 +1,10 @@
+name:"Cantarium very big wall"
+description:"..."
+type:Wall
+health:10600
+size:4
+requirements:[
+cantarium/92
+]
+category:defense
+research:"cantarium-fabric"

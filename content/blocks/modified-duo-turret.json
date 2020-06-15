@@ -1,0 +1,56 @@
+{
+	"type": "doubleTurret",
+	"name": "Modified duo turret",
+	"description": "Twice as much lethal force",
+	"targetAir": true,
+	"health": 520,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 2,
+	"restitution": 0.03,
+	"reload": 9,
+	"shootCone": 15,
+	"rotateSpeed": 10,
+	"shots": 4,
+	"range": 150,
+	"ammo": {	
+		"graphite": {
+			"speed": 2.9,
+			"damage": 28,
+			"reloadMultiplier": 0.7,
+			"bulletWidth": 9,
+			"bulletHeight": 10,
+			"lifetime": 90,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		},
+		"silicon": {
+			"speed": 2.9,
+			"damage": 26,
+			"bulletWidth": 8,
+			"bulletHeight": 9,
+			"lifetime": 90,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"homingPower": 2.1,
+			"homingRadius": 70
+		},
+    "copper": {
+			"speed": 2.9,
+			"damage": 19,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"lifetime": 90,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 65 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

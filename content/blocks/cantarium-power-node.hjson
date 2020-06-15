@@ -1,0 +1,17 @@
+name:"Cantarium power node"
+type:"PowerNode"
+size: 2
+description:"..."
+health:"185"
+hasPower:true
+buildCostMultiplier:0.675
+category:"power"
+requirements:[
+lead/20
+copper/20
+cantarium/20
+silicon/20
+]
+ research: "cantarium-fabric"
+ maxNodes: 11
+ laserRange: 24

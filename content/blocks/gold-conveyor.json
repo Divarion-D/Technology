@@ -1,0 +1,12 @@
+ "type": "Conveyor",
+ "name": "Gold Conveyor",
+ "description": "Fast gold conveyor.",
+ "requirements": [
+		{ "item": "gold", "amount": 1 },
+  {"item": "titanium", "amount": 1 },
+  {"item": "lead", "amount": 5 }
+],
+ "category": "distribution",
+ "speed": 0.40,
+ "displayedSpeed": 40
+ "research": titanium-conveyor

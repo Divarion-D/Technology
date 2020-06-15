@@ -1,0 +1,26 @@
+name:"Импульсный бур"
+description:"..."
+type:"Drill"
+size:4
+health:1000
+tier:4
+drillTime:10
+itemCapacity:10
+rotateSpeed:2
+consumes:{
+power: 4
+liquid:{
+liquid:"water"
+amount:0.1
+optional:true
+booster:true
+}
+}
+requirements:[
+copper/100
+gold/25
+thorium/75
+silicon/100
+]
+category:"production"
+research: "gold-smelter"

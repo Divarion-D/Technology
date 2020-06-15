@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Gold smeltrer",
+	"description": "Smelts gold dust into gold bullion.",
+	"outputItem": {"item": "gold", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "gold-powder", "amount": 5 },
+          { "item": "coal", "amount": 5 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 350 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "graphite", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,15 @@
+type: "BufferedItemBridge"
+name: "Gold bridge conveyor"
+description: "..."
+health: 80
+range: 6
+speed: 0.40
+bufferCapacity: 2
+requirements:[
+copper/6
+lead/6
+gold/2
+]
+research: "gold-conveyor"
+category: "distribution"
+size: 1

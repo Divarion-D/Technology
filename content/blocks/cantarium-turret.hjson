@@ -1,0 +1,64 @@
+type: doubleTurret
+name: "Cantarium turret"
+description: "..."
+targetAir: true
+targetGround: true
+health: 3450
+size: 4
+reload: 5
+inaccuracy: 7
+range: 240
+rotatespeed: 306
+
+ammo: {
+ cantarium: {
+ speed: 10
+ lifetime: 60
+ damage: 85
+ ammoMultiplier: 2
+ reloadMultiplier: 1.2
+ bulletWidth: 10
+ bulletHeight: 20
+ }
+ graphite: {
+ speed: 8
+ lifetime: 60
+ damage: 72
+ ammoMultiplier: 4
+ reloadMultiplier: 0.6
+ bulletWidth: 10
+ bulletHeight: 20
+ }
+ pyratite: {
+ speed: 5
+ lifetime: 60
+ damage: 68
+ ammoMultiplier: 2
+ incendSpread: 2
+ incendAmount: 1
+ reloadMultiplier: 1
+ bulletWidth: 10
+ bulletHeight: 20
+ frontColor: #FFB464
+ backColor: #FFDA73
+ }
+ silicon: {
+ speed: 9
+ lifetime: 60
+ damage: 52
+ ammoMultiplier: 5
+ homingPower: 1
+ homingRange: 20
+ reloadMultiplier: 1.4
+ bulletWidth: 10
+ bulletHeight: 20
+ }
+ }
+category: turret
+requirements: [
+copper/650
+graphite/600
+thorium/500
+plastanium/350
+ cantarium/35
+]

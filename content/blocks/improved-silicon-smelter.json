@@ -1,0 +1,28 @@
+{
+	"name": "Improved silicon smelter",
+	"type": "GenericSmelter",
+	"description": "Faster silicon production",
+	"outputItem": {"item": "silicon", "amount": 4},
+	"hasPower": true,
+	"size": 3,
+	"hasLiquids": false,
+	"craftTime": 90,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 4},
+        {"item": "sand", "amount": 3}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 50 },
+    { "item": "titanium", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "melter",
+}

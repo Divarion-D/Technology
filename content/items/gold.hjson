@@ -1,0 +1,7 @@
+type:material
+name: "Gold"
+description: "Gold in the purest form, useful for creation of mechanisms, conveyors and turrets."
+color: "#dede41"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0

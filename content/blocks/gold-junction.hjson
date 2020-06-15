@@ -1,0 +1,12 @@
+type: "junction"
+name: "Gold junction"
+description: "..."
+health": 47
+speed: 0.40
+ capacity: 10
+size: 1
+requirements:[
+gold/2
+]
+research: "gold-conveyor"
+category: "distribution"

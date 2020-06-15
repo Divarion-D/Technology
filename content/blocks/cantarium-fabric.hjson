@@ -1,0 +1,25 @@
+type:GenericSmelter
+name:"Cantarium Plant"
+description:"Connects graphite, titanium and coal.\n Creates a very durable cantarium alloy."
+outputItem:cantarium/1
+size:2
+hasPower:true
+hasItems:true
+craftTime:40
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:0.5
+items:{items:[
+coal/2
+graphite/4
+titanium/2
+]}}
+requirements:[
+copper/150
+lead/130
+plastanium/50
+graphite/25
+]
+category:crafting
+research:router

@@ -1,0 +1,11 @@
+type: "router"
+name: "Gold router"
+description: "..."
+health: 54
+speed: 0.40
+size: 1
+requirements:[
+gold/3
+]
+research: "gold-conveyor"
+category: "distribution"

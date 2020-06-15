@@ -1,0 +1,16 @@
+name:"Cantarium battery"
+type:"Battery"
+size: 3
+description:"Накапливает энергию как буфер во время избытка энергии.\nВыводит энергию во время дефицита"
+hasPower:true
+buildCostMultiplier:0.675
+consumes:{
+powerBuffered: 80000
+}
+category:"power"
+requirements:[
+lead/85
+titanium/40
+silicon/50
+cantarium/20
+]

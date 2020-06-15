@@ -1,0 +1,34 @@
+{
+	"type": "GenericSmelter",
+	"name": "Gold washing",
+	"description": "Washes gold dust out of sand.",
+	"liquidCapacity": 60,
+	"outputItem": {"item": "gold-powder", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 40,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 10 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.3
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "silicon", "amount": 300 }
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

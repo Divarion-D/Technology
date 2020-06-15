@@ -1,0 +1,14 @@
+type: "SolarGenerator"
+name: "Cantarium solar panel"
+description: "..."
+size: 3
+health: 329
+requirements:[
+lead/150
+silicon/200
+phase-fabric/30
+cantarium/10
+]
+research: "cantarium-fabric"
+powerProduction: 1.6
+category: "power"
