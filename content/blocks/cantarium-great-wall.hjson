@@ -1,0 +1,10 @@
+name:"Great Wall of Cantarium"
+description:"..."
+type:Wall
+health:4200
+size:2
+requirements:[
+cantarium/32
+]
+category:defense
+research:"cantarium-fabric"
