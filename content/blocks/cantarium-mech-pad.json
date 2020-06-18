@@ -13,7 +13,7 @@
 		},
 	},
 	"category": "upgrade",
-	"research": "scorch",
+	"research": "omega-mech-pad",
 	"requirements": [
 		{ "item": "titanium", "amount": 1000 },
 		{ "item": "plastanium", "amount": 250 },

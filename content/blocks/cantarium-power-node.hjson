@@ -12,6 +12,6 @@ copper/20
 cantarium/20
 silicon/20
 ]
- research: "cantarium-fabric"
+ research: "power-node-large"
  maxNodes: 11
  laserRange: 24

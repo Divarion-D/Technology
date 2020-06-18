@@ -28,7 +28,7 @@
 		{ "item": "silicon", "amount": 300 }
 	],
 	"category": "crafting",
-	"research": "phase-weaver",
+	"research": "silicon-smelter",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

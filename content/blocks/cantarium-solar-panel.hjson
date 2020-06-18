@@ -9,6 +9,6 @@ silicon/200
 phase-fabric/30
 cantarium/10
 ]
-research: "cantarium-fabric"
+research: "cantarium-power-node"
 powerProduction: 1.6
 category: "power"
