@@ -13,8 +13,8 @@
 		"power": 1.5,
 		"items": {
 			"items": [
-				{ "item": "gold-powder", "amount": 5 },
-          { "item": "coal", "amount": 5 }
+				{ "item": "gold-powder", "amount": 4},
+          { "item": "coal", "amount": 2 }
 			]
 		},
 	},

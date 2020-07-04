@@ -14,12 +14,12 @@
 		"power": 1.5,
 		"items": {
 			"items": [
-				{ "item": "sand", "amount": 10 }
+				{ "item": "sand", "amount": 5 }
 			]
 		},
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.3
+			"amount": 0.15
 		}
 	},
 	"requirements": [

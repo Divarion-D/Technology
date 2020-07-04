@@ -1,0 +1,50 @@
+{
+	"type": "burstTurret",
+	"name": "Artillery gun",
+	"description": "A powerful weapon that shoots long distances.",
+	"targetAir": true,
+	"targetGround": true,
+	"size": 4,
+	"reload": 420,
+ "itemCapacity": 50,
+	"shootCone": 40,
+	"rotateSpeed": 1,
+	"shots": 1,
+	"chargeTime": 30,
+	"range": 1000,
+	"burstSpacing": 6,
+	"ammo": {
+	"silicon": {
+			"speed": 55.0,
+			"type": "missileBulletType",
+			"damage": 12400,
+  "ammoPerShot": 4,
+			"bulletWidth": 15,
+			"bulletHeight": 23,
+			"ammoMultiplier": 1},
+		"cantarium": {
+			"speed": 60.0,
+			"damage": 14600,
+  "ammoPerShot": 3,
+			"bulletWidth": 15,
+			"bulletHeight": 23,
+			"ammoMultiplier": 1,
+			"fragBulletRadius": 10,
+			"fragBullet": {
+				"damage": 80,
+				"speed": 30,
+				"lifetime": 100,
+				}
+			"fragBullets": 15
+				
+		}
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 230 },
+		{ "item": "silicon", "amount":  260 },
+		{ "item": "graphite", "amount": 290 },
+	 { "item": "cantarium", "amount": 230 }
+	],
+	"category": "turret",
+	"research": "arc"
+}
